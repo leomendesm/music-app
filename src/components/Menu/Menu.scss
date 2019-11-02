@@ -1,0 +1,12 @@
+.menu {
+    list-style: none;
+    display: flex;
+    li {
+        color: #b9bcc1;
+        font-weight: 600;
+        margin-left: 20px;
+        &.selected {
+            color: #e52051;
+        }
+    }
+}
