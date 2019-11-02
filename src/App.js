@@ -3,14 +3,25 @@ import Header from './components/Header'
 import Menu from './components/Menu'
 import Artists from './containers/Artists'
 import './App.scss'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Menu />
-      <Artists />
-    </div>
+    <Router>
+        <div className="App">
+            <Header />
+            <Menu />
+            <Switch>
+                <Route path="/" exact>
+                    <Artists />
+                </Route>
+            </Switch>
+        </div>
+    </Router>
   )
 }
 
