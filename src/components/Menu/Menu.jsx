@@ -3,11 +3,15 @@ import './Menu.scss'
 import { NavLink } from 'react-router-dom'
 const Menu  = () => (
     <ul className="menu">
-        <NavLink to="/" activeClassName="selected">
+        <NavLink to="/" exact activeClassName="selected">
             <li>Artists</li>
         </NavLink>
-        <li>Albums</li>
-        <li>Tracks</li>
+        <NavLink to="/albums" activeClassName="selected">
+            <li>> Albums</li>
+        </NavLink>
+        <NavLink to="/tracks" activeClassName="selected">
+            <li>> Tracks</li>
+        </NavLink>
     </ul>
 )
 
