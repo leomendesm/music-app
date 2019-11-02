@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+.header {
+    display: flex;
+    justify-content: center;
+    .title {
+        color: #162031;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
