@@ -1,0 +1,43 @@
+.artist {
+    height: 160px;
+    width: 130px;
+    position: relative;
+    margin-bottom: 10px;
+
+    .artist__img {
+        .artist__img__first {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .artist__img__second {
+            position: absolute;
+            top: 18px;
+            left: 5px;
+            width: 120px;
+            opacity: 0.50;
+            filter: blur(2px);
+        }
+    }
+
+    img {
+        border-radius: 5px;
+        width: 130px;
+    }
+
+    a {
+        color: #494d52;
+        font-weight: 700;
+        line-height: 21px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
