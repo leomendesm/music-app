@@ -6,10 +6,10 @@ const Menu  = () => (
         <NavLink to="/" exact activeClassName="selected">
             <li>Artists</li>
         </NavLink>
-        <NavLink to="/albums" activeClassName="selected">
+        <NavLink to="/albums" activeClassName="selected" onClick={e => e.preventDefault()}>
             <li>> Albums</li>
         </NavLink>
-        <NavLink to="/tracks" activeClassName="selected">
+        <NavLink to="/tracks" activeClassName="selected" onClick={e => e.preventDefault()}>
             <li>> Tracks</li>
         </NavLink>
     </ul>

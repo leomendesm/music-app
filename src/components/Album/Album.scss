@@ -26,7 +26,7 @@
         width: 130px;
     }
 
-    a {
+    .album__name {
         color: #494d52;
         font-weight: 700;
         line-height: 21px;
@@ -44,7 +44,7 @@
             cursor: pointer;
         }
     }
-    p {
+    .album__singer {
         color: rgba(22, 32, 49, 0.3);
         font-weight: 700;
         line-height: 21px;

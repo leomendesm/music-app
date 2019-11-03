@@ -1,7 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 import './Artist.scss'
 import { Link } from 'react-router-dom'
+
 const Artist = ({ name, img }) => (
     <Link to={`/albums/${name}`}>
         <div className="artist">

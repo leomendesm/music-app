@@ -20,10 +20,8 @@ const App = () => (
               <Route path="/" exact>
                   <Artists />
               </Route>
-              <Route path="/albums/:artist" render={(props) => (<Albums {...props} /> )} />                   
-              <Route path="/tracks/:albumId">
-                  <Tracks />
-              </Route>
+              <Route path="/albums/:artist" render={(props) => (<Albums {...props} /> )} />
+              <Route path="/tracks/:artist/:album" render={(props) => (<Tracks {...props} /> )} />
           </Switch>
       </div>
   </Router>
