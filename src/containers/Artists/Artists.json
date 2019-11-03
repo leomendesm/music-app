@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Dua Lipa",
+        "picture": "http://static1.squarespace.com/static/56e0f44160b5e96aec2019f3/56e1545f60b5e96aec21a826/5ac582281ae6cf3b2c5ef071/1528713525090/artworks-000285046307-asahiz-t500x500.jpg?format=1500w"
+    },
+    {
+        "name" : "Selena Gomez",
+        "picture": "https://i1.wp.com/themusicalhype.com/wp-content/uploads/2019/10/selena-gomez-look-at-her-now-interscope.jpg?resize=500%2C500&ssl=1"
+    },
+    {
+        "name" : "Post Malone",
+        "picture": "https://m.media-amazon.com/images/I/61sx9pQZ8oL._SS500_SS500_.jpg"
+    },
+    {
+        "name" : "Maroon 5",
+        "picture": "https://www.udiscovermusic.com/wp-content/uploads/2019/09/Maroon-5-Memories-Cover-820.jpg.jpg"
+    },
+    {
+        "name" : "Ariana Grande",
+        "picture": "https://i.guim.co.uk/img/media/2883aea7c56edf552add77eee75e7e7850d6bdfe/0_0_3000_3000/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=f2d5278e60558c8ec296c3ccbf36a320"
+    },
+    {
+        "name" : "Tones and I",
+        "picture": "https://www.sanity.com.au/media/Images/fullimage/523470/SDC_2429538_2019-18-8--00-15-03.jpg"
+    },
+    {
+        "name" : "Kanye West",
+        "picture": "https://www.udiscovermusic.com/wp-content/uploads/2019/05/Kanye-West-Ye-album-cover-web-optimised-820.jpg"
+    },
+    {
+        "name" : "Camila Cabello",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/61bm91XGmcL.jpg"
+    },
+    {
+        "name" : "Travis Scott",
+        "picture": "https://images-na.ssl-images-amazon.com/images/I/616O7QukOSL._SX466_.jpg"
+    },
+    {
+        "name" : "Major Lazer",
+        "picture": "https://i.kym-cdn.com/photos/images/original/000/980/115/358.jpg"
+    }
+]
