@@ -36,6 +36,9 @@
         left: 0;
         text-decoration: none;
         text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 130px;
         &:hover {
             text-decoration: underline;
             cursor: pointer;
@@ -49,8 +52,10 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        text-decoration: none;
         text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 130px;
         &:hover {
             text-decoration: underline;
             cursor: pointer;

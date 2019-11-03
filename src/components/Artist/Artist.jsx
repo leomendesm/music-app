@@ -1,15 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import './Artist.scss'
-
+import { Link } from 'react-router-dom'
 const Artist = ({ name, img }) => (
-    <div className="artist">
-        <div className="artist__img">
-            <img src={img} alt="" className="artist__img__first" />
-            <img src={img} alt="" className="artist__img__second" />
+    <Link to={`/albums/${name}`}>
+        <div className="artist">
+            <div className="artist__img">
+                <img src={img} alt="" className="artist__img__first" />
+                <img src={img} alt="" className="artist__img__second" />
+            </div>
+            <Link to={`/albums/${name}`}>
+                {name}
+            </Link>
         </div>
-        <a href="#a">{name}</a>
-    </div>
+    </Link>
 )
 
 Artist.propTypes = {

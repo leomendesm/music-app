@@ -1,5 +1,4 @@
 import React from 'react'
-import Placeholder from './img.jpg'
 import './Album.scss'
 
 const Album = ({name, singer, picture}) => (
