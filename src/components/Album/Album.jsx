@@ -2,14 +2,14 @@ import React from 'react'
 import Placeholder from './img.jpg'
 import './Album.scss'
 
-const Album = () => (
+const Album = ({name, singer, picture}) => (
     <div className="album">
         <div className="album__img">
-            <img src={Placeholder} alt="" className="album__img__first" />
-            <img src={Placeholder} alt="" className="album__img__second" />
+            <img src={picture} alt="" className="album__img__first" />
+            <img src={picture} alt="" className="album__img__second" />
         </div>
-        <a href="#a">Fifth Harmony</a>
-        <p>Fifth Harmony</p>
+        <a href="#a">{name}</a>
+        <p>{singer}</p>
     </div>
 )
 

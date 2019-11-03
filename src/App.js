@@ -11,26 +11,23 @@ import {
   Route
 } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
-        <div className="App">
-            <Header />
-            <Menu />
-            <Switch>
-                <Route path="/" exact>
-                    <Artists />
-                </Route>
-                <Route path="/albums" exact>
-                    <Albums />
-                </Route>
-                <Route path="/tracks" exact>
-                    <Tracks />
-                </Route>
-            </Switch>
-        </div>
-    </Router>
-  )
-}
+const App = () => (
+  <Router>
+      <div className="App">
+          <Header />
+          <Menu />
+          <Switch>
+              <Route path="/" exact>
+                  <Artists />
+              </Route>
+              <Route path="/albums/:artist" render={(props) => (<Albums {...props} /> )} />                   
+              <Route path="/tracks/:albumId">
+                  <Tracks />
+              </Route>
+          </Switch>
+      </div>
+  </Router>
+)
+
 
 export default App
